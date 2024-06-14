@@ -5,7 +5,7 @@ import SearchPage from "./components/SearchPage/SearchPage";
 import HomePage from "./components/HomePage/HomePage";
 import { TripsContext } from "./Utils/Context/TripsContext";
 import React, { useState } from "react";
-
+import { resolvePath } from "react-router-dom";
 function App() {
   const [tripsData, setTripsData] = useState([
       {
